@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+body {
+  background: linear-gradient(to right, rgb(226, 176, 176), rgb(207, 207, 130));
+  color: blue;
+  font-size: 0.75rem;
+  font-weight: bold;
 }

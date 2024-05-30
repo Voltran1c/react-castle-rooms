@@ -1,16 +1,15 @@
 import { useState } from "react";
 import Castle from "./components/01_Castle";
 
-// This is a Kingdom Component
 function App() {
   const [replyMessage, setReplyMessage] = useState("");
 
   const handleReply = (message) => {
     setReplyMessage(message);
   };
-  const message1 = "Do you love React?";
+  const message1 = "คุณฮัก React บ่?";
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center pt-10">
       <p>Message for JSD7: {message1}</p>
       <p>
         Reply from the Secret Room:{" "}
@@ -22,5 +21,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
